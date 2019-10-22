@@ -14,8 +14,8 @@ Below is a wireframe design of the website made with [Balsamiq](balsamiq.cloud).
 2. Accordion Menu
 
 ### Features that I aim to implement are...
-[ ] Cover flow, allowing the user to match tops and bottoms.
-[ ] Recommending color matches based on a pre-selected item's color, e.g., if a navy color top is selected, bottoms are filtered to only display items with the color aesthetically appealing and harmonious with the top.
-[ ] Coordination sharing with other users.
+- [ ] Cover flow, allowing the user to match tops and bottoms.
+- [ ] Recommending color matches based on a pre-selected item's color, e.g., if a navy color top is selected, bottoms are filtered to only display items with the color aesthetically appealing and harmonious with the top.
+- [ ] Coordination sharing with other users.
 
 ### Thanks!
