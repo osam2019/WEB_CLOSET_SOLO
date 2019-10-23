@@ -163,20 +163,34 @@ input::-moz-focus-inner {
     width: calc(100% - 40px);
     padding: 12px 0;
 }
-
 .logo {
-    max-width: 40px;
-    max-height: 40px;
     float: left;
 }
 
-.header h1 {
+.logo-img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.logo h1 {
     margin: 0 4px;
     float: left;
-    font-family: 'Inter UI', sans-serif;
 }
 
+nav {
+    margin: 10px;
+    float: right;
+}
 
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: 0 1px 0 1px;
+}
 
 .clear {
     float: none;
