@@ -157,7 +157,7 @@ input::-moz-focus-inner {
 
 /* Below here are CSS styles that I made */
 .page {
-    background: #ffffff;
+    background: #e2e2e5;
     height: calc(100% - 40px);
     position: absolute;
     place-content: center;

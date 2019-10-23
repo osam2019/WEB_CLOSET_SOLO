@@ -41,7 +41,7 @@
                             </el-collapse>
                         </td>
                         <td>
-                            <coverflow :coverList="coverListTops" :coverWidth="260" :index="1"></coverflow>
+                            <coverflow :coverList="coverListTopsCardigans" :coverWidth="260" :index="1"></coverflow>
                         </td>
                     </tr>
 
@@ -77,70 +77,29 @@
         data() {
             return {
                 activeNames: ['1'],
-                coverListTops:  [
+                coverListTopsCardigans:  [
                     {
-                        cover: 'https://static.mlb-korea.com/images/goods/thnail/m/20190813/31MT01941-50L-17478509599769860.png/dims/resize/800x800',
-                        title: '1'
-                    }, {
-                        cover: 'http://thexshop.co.kr/web/product/medium/201809/1fd4448748fb58a6a068e1563849e4d5.png',
-                        title: '2'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20191023/1199278/1199278_1_500.jpg',
-                        title: '3'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20191023/1198783/1198783_1_500.jpg',
-                        title: '4'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20191023/1199295/1199295_1_500.jpg',
-                        title: '5'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20191023/1198170/1198170_3_500.jpg',
-                        title: '6'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20191023/1198175/1198175_4_500.jpg',
-                        title: '7'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20191023/1198238/1198238_2_500.jpg',
-                        title: '8'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20191023/1198239/1198239_2_500.jpg',
-                        title: '9'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20191023/1198440/1198440_1_500.jpg',
-                        title: '10'
+                        cover: '../assets/images/men/tops/cardigans/8SECONDS_269X5ADY1A.png',
+                        title: '8SECONDS_269X5ADY1A'
+                    },
+                    {
+                        cover: '../assets/images/men/tops/cardigans/COSTUME O’CLOCK_COOSCD001BEIGE.png',
+                        title: 'COSTUME O’CLOCK_COOSCD001BEIGE'
+                    },
+                    {
+                        cover: '../assets/images/men/tops/cardigans/COSTUME O’CLOCK_COOSCD001BEIGE.png',
+                        title: 'COSTUME O’CLOCK_COOSCD001BEIGE'
+                    },
+                    {
+                        cover: '../assets/images/men/tops/cardigans/COSTUME O’CLOCK_COOSCD001BEIGE.png',
+                        title: 'COSTUME O’CLOCK_COOSCD001BEIGE'
                     }
+
                 ],
                 coverListBottom:  [
                     {
                         cover: 'https://cdn.shopify.com/s/files/1/0086/1991/7392/products/Calvin_Klein_Jeans_Slim_Cool_Collum_300x300.png?v=1552138007',
                         title: '1'
-                    }, {
-                        cover: 'https://i.ebayimg.com/images/g/dwEAAOSwxCBcmPoM/s-l300.png',
-                        title: '2'
-                    }, {
-                        cover: 'https://cdn.shopify.com/s/files/1/1594/4353/products/Spring19-Mens-Session-Pants-Wine-On-Body_grande.png?v=1551282991',
-                        title: '3'
-                    }, {
-                        cover: 'https://images-dynamic-arcteryx.imgix.net/F19/450x625/Abbott-Pant-Tui.png?auto=format',
-                        title: '4'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20190910/1149328/1149328_2_500.jpg',
-                        title: '5'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20161222/466299/466299_1_500.jpg',
-                        title: '6'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20190830/1137372/1137372_2_500.jpg',
-                        title: '7'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20191002/1174053/1174053_1_500.jpg',
-                        title: '8'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20191023/1198340/1198340_2_500.jpg',
-                        title: '9'
-                    }, {
-                        cover: 'https://image.msscdn.net/images/goods_img/20191023/1198383/1198383_2_500.jpg',
-                        title: '10'
                     }
                 ]
             };
