@@ -37,7 +37,7 @@ body {
     }
 }
 
-.container {
+.container-login {
     display: flex;
     height: 320px;
     margin: 0 auto;
@@ -45,7 +45,7 @@ body {
 }
 
 @media (max-width: 767px) {
-    .container {
+    .container-login {
         flex-direction: column;
         height: 630px;
         width: 320px;
@@ -152,4 +152,32 @@ input::-moz-focus-inner {
 
 #submit:active {
     color: #d0d0d2;
+}
+
+
+/* Below here are CSS styles that I made */
+.container {
+    display: flex;
+    height: calc(100% - 40px);;
+    margin: 0 auto;
+    width: calc(100% - 40px);
+    padding: 12px 0;
+}
+
+.logo {
+    max-width: 40px;
+    max-height: 40px;
+    float: left;
+}
+
+.header h1 {
+    margin: 0 4px;
+    float: left;
+    font-family: 'Inter UI', sans-serif;
+}
+
+
+
+.clear {
+    float: none;
 }

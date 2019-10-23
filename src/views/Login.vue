@@ -1,6 +1,6 @@
 <template>
     <div class="page">
-        <div class="container">
+        <div class="container-login">
             <div class="left">
                 <div class="login">Login to Closet</div>
                 <div class="eula">Start mix & match by logging in right away.
