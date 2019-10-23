@@ -34,7 +34,7 @@
                     <input type="email" id="email">
                     <label for="password">Password</label>
                     <input type="password" id="password">
-                    <input type="submit" id="submit" value="Submit">
+                    <router-link class="nav-link" to="/main"><input type="submit" id="submit" value="Submit"></router-link>
                 </div>
             </div>
         </div>
