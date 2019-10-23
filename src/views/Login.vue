@@ -1,5 +1,5 @@
 <template>
-    <div class="page">
+    <div class="page-login">
         <div class="container-login">
             <div class="left">
                 <div class="login">Login to Closet</div>

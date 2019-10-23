@@ -1,11 +1,9 @@
 <template>
     <div class="page">
         <div class="container">
-            <div id="header">
-                <div class = "logo">
-                    <img class="logo-img" src="../assets/logo.svg">
-                    <h1>Closet</h1>
-                </div>
+            <header>
+                <div id = "logo-img"><img src="../assets/logo.svg"></div>
+                <div id = "logo-text">Closet</div>
 
                 <nav>
                     <ul>
@@ -15,8 +13,8 @@
                         <li>Find Items</li>
                     </ul>
                 </nav>
-                <div class="clear"></div>
-            </div>
+
+            </header>
 
             <main>
                 <table>
@@ -31,9 +29,13 @@
                 </table>
             </main>
 
-            <div id = "footer">
-                Footer content area
-            </div>
+            <footer>
+                <div class = "icon-credits">Icons made by <a href="https://www.flaticon.com/authors/bqlqn" title="bqlqn">bqlqn</a> from <a
+                        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+                <div class = "icon-credits">Icons made by <a href="https://www.flaticon.com/authors/fjstudio" title="fjstudio">fjstudio</a> from <a
+                        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            </footer>
         </div>
     </div>
 </template>
