@@ -47,7 +47,7 @@
 
                     <tr>
                         <td>
-                            <coverflow :coverList="coverListBottom" :coverWidth="260" :index="1"></coverflow>
+                            <coverflow :coverList="coverListBottomsDenims" :coverWidth="260" :index="1"></coverflow>
                         </td>
                     </tr>
                 </table>
@@ -79,27 +79,46 @@
                 activeNames: ['1'],
                 coverListTopsCardigans:  [
                     {
-                        cover: '../assets/images/men/tops/cardigans/8SECONDS_269X5ADY1A.png',
+                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/tops/cardigans/8SECONDS_269X5ADY1A.png',
                         title: '8SECONDS_269X5ADY1A'
                     },
                     {
-                        cover: '../assets/images/men/tops/cardigans/COSTUME O’CLOCK_COOSCD001BEIGE.png',
+                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/tops/cardigans/COSTUME%20O%E2%80%99CLOCK_COOSCD001BEIGE.png',
                         title: 'COSTUME O’CLOCK_COOSCD001BEIGE'
                     },
                     {
-                        cover: '../assets/images/men/tops/cardigans/COSTUME O’CLOCK_COOSCD001BEIGE.png',
-                        title: 'COSTUME O’CLOCK_COOSCD001BEIGE'
+                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/tops/cardigans/STOCKHOLM%20SYNDROME_S93UKL06-BLACK.png',
+                        title: 'STOCKHOLM SYNDROME_S93UKL06-BLACK'
                     },
                     {
-                        cover: '../assets/images/men/tops/cardigans/COSTUME O’CLOCK_COOSCD001BEIGE.png',
-                        title: 'COSTUME O’CLOCK_COOSCD001BEIGE'
+                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/tops/cardigans/TBJ%20ADVANCED_T194KC720P-GRAY.png',
+                        title: 'TBJ ADVANCED_T194KC720P-GRAY'
+                    },
+                    {
+                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/tops/cardigans/VOIEBIT_V546.png',
+                        title: 'VOIEBIT_V546'
                     }
-
                 ],
-                coverListBottom:  [
+                coverListBottomsDenims:  [
                     {
-                        cover: 'https://cdn.shopify.com/s/files/1/0086/1991/7392/products/Calvin_Klein_Jeans_Slim_Cool_Collum_300x300.png?v=1552138007',
-                        title: '1'
+                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/bottoms/denims/8SECONDS_269X21DP2R.png',
+                        title: '8SECONDS_269X21DP2R'
+                    },
+                    {
+                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/bottoms/denims/BRANDED_LOT1931.png',
+                        title: 'BRANDED_LOT1931'
+                    },
+                    {
+                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/bottoms/denims/MODIFIED_M%230720.png',
+                        title: 'MODIFIED_M#0720'
+                    },
+                    {
+                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/bottoms/denims/PIECE%20WORKER_PMH0DPTB15612.png',
+                        title: 'PIECE WORKER_PMH0DPTB15612'
+                    },
+                    {
+                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/bottoms/denims/PIECE%20WORKER_PMH3DPTB01002.png',
+                        title: '1PIECE WORKER_PMH3DPTB01002'
                     }
                 ]
             };
