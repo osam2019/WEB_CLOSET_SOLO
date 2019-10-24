@@ -227,7 +227,7 @@
                                     <button>Save</button>
                                 </li>
                                 <li>
-                                    <button @click="openPage()">Checkout</button>
+                                    <button @click="openPage()">Buy</button>
                                 </li>
                             </ul>
 
