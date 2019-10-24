@@ -79,45 +79,45 @@
                 activeNames: ['1'],
                 coverListTopsCardigans:  [
                     {
-                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/tops/cardigans/8SECONDS_269X5ADY1A.png',
+                        cover: 'https://raw.githubusercontent.com/htcrefactor/closet-web/master/public/images/men/tops/cardigans/8SECONDS_269X5ADY1A.png',
                         title: '8SECONDS_269X5ADY1A'
                     },
                     {
-                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/tops/cardigans/COSTUME%20O%E2%80%99CLOCK_COOSCD001BEIGE.png',
+                        cover: 'https://raw.githubusercontent.com/htcrefactor/closet-web/master/public/images/men/tops/cardigans/COSTUME%20O%E2%80%99CLOCK_COOSCD001BEIGE.png',
                         title: 'COSTUME O’CLOCK_COOSCD001BEIGE'
                     },
                     {
-                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/tops/cardigans/STOCKHOLM%20SYNDROME_S93UKL06-BLACK.png',
+                        cover: 'https://raw.githubusercontent.com/htcrefactor/closet-web/master/public/images/men/tops/cardigans/STOCKHOLM%20SYNDROME_S93UKL06-BLACK.png',
                         title: 'STOCKHOLM SYNDROME_S93UKL06-BLACK'
                     },
                     {
-                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/tops/cardigans/TBJ%20ADVANCED_T194KC720P-GRAY.png',
+                        cover: 'https://raw.githubusercontent.com/htcrefactor/closet-web/master/public/images/men/tops/cardigans/TBJ%20ADVANCED_T194KC720P-GRAY.png',
                         title: 'TBJ ADVANCED_T194KC720P-GRAY'
                     },
                     {
-                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/tops/cardigans/VOIEBIT_V546.png',
+                        cover: 'https://raw.githubusercontent.com/htcrefactor/closet-web/master/public/images/men/tops/cardigans/VOIEBIT_V546.png',
                         title: 'VOIEBIT_V546'
                     }
                 ],
                 coverListBottomsDenims:  [
                     {
-                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/bottoms/denims/8SECONDS_269X21DP2R.png',
+                        cover: 'https://raw.githubusercontent.com/htcrefactor/closet-web/master/public/images/men/bottoms/denims/8SECONDS_269X21DP2R.png',
                         title: '8SECONDS_269X21DP2R'
                     },
                     {
-                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/bottoms/denims/BRANDED_LOT1931.png',
+                        cover: 'https://raw.githubusercontent.com/htcrefactor/closet-web/master/public/images/men/bottoms/denims/BRANDED_LOT1931.png',
                         title: 'BRANDED_LOT1931'
                     },
                     {
-                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/bottoms/denims/MODIFIED_M%230720.png',
+                        cover: 'https://raw.githubusercontent.com/htcrefactor/closet-web/master/public/images/men/bottoms/denims/MODIFIED_M%230720.png',
                         title: 'MODIFIED_M#0720'
                     },
                     {
-                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/bottoms/denims/PIECE%20WORKER_PMH0DPTB15612.png',
+                        cover: 'https://raw.githubusercontent.com/htcrefactor/closet-web/master/public/images/men/bottoms/denims/PIECE%20WORKER_PMH0DPTB15612.png',
                         title: 'PIECE WORKER_PMH0DPTB15612'
                     },
                     {
-                        cover: 'http://github.com/htcrefactor/closet-web/blob/master/public/images/men/bottoms/denims/PIECE%20WORKER_PMH3DPTB01002.png',
+                        cover: 'https://raw.githubusercontent.com/htcrefactor/closet-web/master/public/images/men/bottoms/denims/PIECE%20WORKER_PMH3DPTB01002.png',
                         title: '1PIECE WORKER_PMH3DPTB01002'
                     }
                 ]
