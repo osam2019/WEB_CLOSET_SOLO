@@ -116,7 +116,7 @@ path {
     position: absolute;
 }
 
-label {
+.form label {
     color: #c2c2c5;
     display: block;
     font-size: 14px;
