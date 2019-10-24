@@ -172,8 +172,10 @@ input::-moz-focus-inner {
 }
 
 header {
-    border-bottom: 4px solid black;
-    padding-bottom: 10px;
+    /*border-bottom: 4px solid black;*/
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin: 10px 0px 10px 0px;
 }
 
@@ -205,7 +207,7 @@ header #logo-text {
     font-size: 40px;
     font-weight: 900;
     font-family: 'Inter UI', sans-serif;
-    margin: 0 0 0 8px;
+    margin: 0 0 0 12px;
     color: white;
 }
 
@@ -215,7 +217,7 @@ nav {
 }
 
 nav ul {
-    margin-top: 8px;
+
 }
 
 nav ul li {
@@ -226,7 +228,7 @@ nav ul li {
     font-family: 'Inter UI', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    padding: 12px;
+    padding-right: 24px;
 }
 
 .clear {

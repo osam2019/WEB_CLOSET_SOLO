@@ -43,3 +43,30 @@
     </div>
 </template>
 
+<script>
+    export default {
+        data() {
+            return {
+                property: 'Blank'
+            }
+        },
+
+        computed: {
+            propertyComputed() {
+                let anime = document.createElement('script');
+                anime.setAttribute('src', "../assets/scripts/anime-min.js");
+                document.head.appendChild(anime);
+            }
+        },
+
+        created() {
+            let anime = document.createElement('script1');
+            anime.setAttribute('src', "../assets/scripts/anime-min.js");
+            document.head.appendChild(anime);
+
+            let login = document.createElement('script2');
+            login.setAttribute('src', "../assets/scripts/login.js");
+            document.head.appendChild(login);
+        }
+    }
+</script>
