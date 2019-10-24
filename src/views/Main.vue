@@ -224,14 +224,10 @@
 
                             <ul id="interaction">
                                 <li>
-                                    <router-link class="nav-link" to="/">
-                                        <button>Save</button>
-                                    </router-link>
+                                    <button>Save</button>
                                 </li>
                                 <li>
-                                    <router-link class="nav-link" to="/">
-                                        <button>Checkout</button>
-                                    </router-link>
+                                    <button @click="openPage()">Checkout</button>
                                 </li>
                             </ul>
 
@@ -245,7 +241,7 @@
                     <tr>
                         <td class="coverflow-area">
                             <coverflow :coverList="coverListBottomsDenims" :width="1250" :coverWidth="250"
-                                       :index="10" style="margin: 0 auto"></coverflow>
+                                       :index="10" style="margin: 0 auto" @change="changeIndex"></coverflow>
                         </td>
                     </tr>
                 </table>
@@ -253,7 +249,7 @@
 
             <footer>
                 <div class="icon-credits">Icons made by <a href="https://www.flaticon.com/authors/bqlqn" title="bqlqn">bqlqn</a>
-                    and <a href="https://www.flaticon.com/authors/fjstudio" title="fjstudio">fjstudio</a> from <a
+                    and <a href="https://www.flaticon.com/aut.hors/fjstudio" title="fjstudio">fjstudio</a> from <a
                             href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
                 </div>
             </footer>
@@ -262,8 +258,9 @@
 </template>
 
 <script>
-    import Vue from 'vue';
-    import coverflow from 'vue-coverflow';
+import coverflow from 'vue-coverflow';
+
+var textlink = '';
 
     export default {
         components: {
@@ -271,6 +268,7 @@
         },
         data() {
             return {
+                queryValue: '',
                 activeNames: ['1'],
                 coverListTopsCardigans: [
                     {
@@ -436,12 +434,24 @@
                         title: 'PIECE WORKER'
                     }
                 ],
-                value: [4, 8]
+                value1: [4, 8]
             };
+        },
+        mounted() {
+            this.changeIndex(10);
         },
         methods: {
             handleChange(val) {
                 console.log(val);
+            },
+            changeIndex(index) {
+                this.queryValue = "https://store.musinsa.com/app/product/search?type=&keyword_value=&keyword_url=&q=" + this.coverListBottomsDenims[index].title;
+                // window.open(this.queryValue);
+                textlink = this.queryValue;
+            },
+            openPage(){
+                console.log("__ ", this.queryValue)
+                window.open(this.queryValue,"_blank");
             }
         }
     }
