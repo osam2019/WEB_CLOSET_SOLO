@@ -172,22 +172,24 @@ input::-moz-focus-inner {
 }
 
 header {
-    border: 1px solid red;
+    border-bottom: 4px solid black;
+    padding-bottom: 10px;
     margin: 10px 0px 10px 0px;
 }
 
 nav {
-    border: 1px dashed red;
+    //border: 1px dashed red;
 
 }
 
 main {
-    border: 1px solid green;
+    //border: 1px solid green;
     margin: 10px 0px 10px 0px;
 }
 
 footer {
-    border: 1px solid blue;
+    background-color: #474A59;
+    min-height: 40px;
     margin: 10px 0px 10px 0px;
 }
 
@@ -204,6 +206,7 @@ header #logo-text {
     font-weight: 900;
     font-family: 'Inter UI', sans-serif;
     margin: 0 0 0 8px;
+    color: white;
 }
 
 nav {
@@ -212,14 +215,14 @@ nav {
 }
 
 nav ul {
-    margin: 0;
+    margin-top: 8px;
 }
 
 nav ul li {
     display: inline-block;
     text-decoration: none;
     color: #c2c2c5;
-    background-color: #474A59;
+    /*background-color: #474A59;*/
     font-family: 'Inter UI', sans-serif;
     font-size: 20px;
     font-weight: bold;
