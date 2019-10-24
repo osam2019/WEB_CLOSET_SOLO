@@ -150,13 +150,6 @@
                                                    value="thisisneverthat">
                                             <label class="checkbox-label" for="tops-brand-thisisneverthat">thisisneverthat</label>
                                         </el-collapse-item>
-
-                                        <el-collapse-item title="Price" name="tops-price">
-                                            <div class="block">
-                                                <span class="demonstration">Default value</span>
-                                                <el-slider :range="true" v-model="value1"></el-slider>
-                                            </div>
-                                        </el-collapse-item>
                                     </el-collapse>
                                 </div>
 
@@ -192,20 +185,6 @@
                                         </el-collapse-item>
 
                                         <el-collapse-item title="Brand" name="bottoms-brand">
-                                            <input class="checkbox" type="checkbox" id="tops-color-black" name="Black"
-                                                   value="black">
-                                            <label class="checkbox-label" for="tops-color-black">Black</label>
-                                            <input class="checkbox" type="checkbox" id="tops-color-white"
-                                                   name="subscribe"
-                                                   value="white">
-                                            <label class="checkbox-label" for="tops-color-white">White</label>
-                                            <input class="checkbox" type="checkbox" id="tops-color-gray"
-                                                   name="subscribe"
-                                                   value="gray">
-                                            <label class="checkbox-label" for="tops-color-gray">Gray</label>
-                                        </el-collapse-item>
-
-                                        <el-collapse-item title="Price" name="bottoms-price">
                                             <input class="checkbox" type="checkbox" id="tops-color-black" name="Black"
                                                    value="black">
                                             <label class="checkbox-label" for="tops-color-black">Black</label>
